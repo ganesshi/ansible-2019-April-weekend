@@ -7,4 +7,7 @@ def test_always_passes():
 
 def test_always_fails():
     print "This is second test case..."
+    a = 10
+    b = 20
+    print a+b
     assert True
